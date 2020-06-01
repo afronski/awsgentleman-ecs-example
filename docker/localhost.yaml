@@ -1,0 +1,32 @@
+version: '3'
+
+services:
+
+    aws-ecs-example-db:
+        image: mysql:8
+        ports:
+            - 3306:3306
+        volumes:
+            - database-data:/var/lib/mysql
+        environment:
+            MYSQL_ROOT_PASSWORD: localInstance2020
+
+    aws-ecs-example:
+        image: dev/aws-ecs-example:latest
+        depends_on:
+            - aws-ecs-example-db
+        ports:
+            - 5000:5000
+        links:
+            - "aws-ecs-example-db:database"
+        environment:
+            RDS_HOSTNAME: database
+            RDS_PORT: 3306
+            RDS_USERNAME: root
+            RDS_PASSWORD: localInstance2020
+            RDS_DB_NAME: journaler_api
+
+volumes:
+
+    database-data:
+        driver: local
