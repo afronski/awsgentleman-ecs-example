@@ -1,8 +1,8 @@
-# AWS Elastic Container Service example for [AWS Gentleman](https://awsgentleman.com/category/aws-cdk/) [Twitch](https://twitch.tv/afronski) Stream
+# AWS Elastic Container Service example for [AWS Gentleman](https://awsgentleman.com/category/aws-cdk/) live stream
 
 ## What is it?
 
-It is an example that I have prepared for the [Twitch](https://twitch.tv/afronski) Stream from *AWS Certification* support group for *Associate level* preparations done as a part of [AWS Gentleman](https://awsgentleman.com) initiative.
+It is an example that I have prepared for the live stream from *AWS Certification* support group for *Associate level* preparations done as a part of [AWS Gentleman](https://awsgentleman.com) initiative.
 
 ## Prerequisites
 
