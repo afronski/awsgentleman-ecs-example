@@ -1,4 +1,4 @@
-# AWS Elastic Container Service example for [AWS Gentleman](https://awsgentleman.com/live) live stream
+# AWS Elastic Container Service example for [AWS Gentleman live stream](https://awsgentleman.com/live)
 
 ## What is it?
 
