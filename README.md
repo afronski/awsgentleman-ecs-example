@@ -1,4 +1,4 @@
-# AWS Elastic Container Service example for [AWS Gentleman](https://awsgentleman.com/category/aws-cdk/) live stream
+# AWS Elastic Container Service example for [AWS Gentleman](https://awsgentleman.com/live) live stream
 
 ## What is it?
 
