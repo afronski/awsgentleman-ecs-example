@@ -1,8 +1,8 @@
-# AWS Elastic Container Service example for [AWS Gentleman live stream](https://awsgentleman.com/live)
+# AWS Elastic Container Service example for [AWS Maniac live stream](https://awsmaniac.com/live)
 
 ## What is it?
 
-It is an example that I have prepared for the live stream from *AWS Certification* support group for *Associate level* preparations done as a part of [AWS Gentleman](https://awsgentleman.com) initiative.
+It is an example that I have prepared for the live stream from *AWS Certification* support group for *Associate level* preparations done as a part of [AWS Maniac](https://awsmaniac.com) initiative.
 
 ## Prerequisites
 
@@ -40,4 +40,4 @@ curl -i -XPUT -H "Cookie: JSESSIONID=...; Path=/; HttpOnly" -H "Content-Type: ap
 
 ## Authors
 
-- [Wojciech Gawroński (afronski) - AWS Gentleman](https://github.com/afronski)
+- [Wojciech Gawroński (afronski) - AWS Maniac](https://github.com/afronski)
