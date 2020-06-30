@@ -4,7 +4,7 @@ all: localhost-clean jar-clean jar-build docker-build localhost-start
 
 STAGE=dev
 VERSION=$(shell cat build.gradle | grep 'version =' | cut -d'=' -f2 | tr -d "'" | tr -d " ")
-JAR_FILE=build/libs/awsgentleman-ecs-example-${VERSION}.jar
+JAR_FILE=build/libs/ecs-example-${VERSION}.jar
 
 build: jar-build docker-build
 test: jar-test
